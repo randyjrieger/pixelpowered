@@ -1,0 +1,153 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification\ 
+for details on configuring this project to bundle and minify static web assets. */
+
+@font-face {
+    font-family: 'fanwood-webfont';
+    src: url('../fonts/fanwood-webfont.woff') format('woff'), url('../fonts/fanwood_italic-webfont.woff') format('woff'), url('../fonts/fanwood_text-webfont.woff') format('woff'), url('../fonts/fanwood_text_italic-webfont.woff') format('woff');
+}
+/*body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}*/
+
+/* Wrapping element */
+/* Set some basic padding to keep content from hitting the edges */
+
+/*.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}*/
+
+
+
+body {
+    font-family: 'fanwood-webfont';
+}
+/*
+    min-height: 100% !important;
+    margin: auto !important;
+    overflow: scroll !important;*/
+.maindisplay {
+    padding-left: 100px !important;
+    padding-right: 100px !important;
+}
+
+.pageframe {
+    background-image: linear-gradient(to right,#4c7496, #818181);
+}
+/* background-image: linear-gradient(to right,#4c7496, #818181);
+    padding: 20px 250px 20px 250px !important;*/
+/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
+#main {
+    transition: margin-left .5s;
+    padding: 20px;
+}
+
+.saymyname {
+    font-family: 'fanwood-webfont';
+    font-size: 54px;
+    /* color: #371c3c !important;*/
+    color: #ffffff;
+}
+.subtitle {
+    font-family: 'fanwood-webfont';
+    font-size: 34px;
+    /* color: #371c3c !important;*/
+    color: #ffffff;
+}
+
+.domaintitle {
+    font-family: 'fanwood-webfont';
+    font-size: 30px;
+    font-style: italic;
+    color: #ffffff;
+}
+
+.message {
+    font-size: 24px;
+    color: #ffffff;
+}
+.submessage {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* The side navigation menu */
+.sidenav {
+    font-family: 'fanwood-webfont';
+    height: 100%; /* 100% Full-height */
+    width: 0; /* 0 width - change this with JavaScript */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: #4c7496; /* Black*/
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 60px; /* Place content 60px from the top */
+    transition: 0.5s; /* 0.5 second transition effect to slide in the sidenav */
+}
+
+    /* The navigation menu links */
+    .sidenav a {
+        padding: 8px 8px 8px 32px;
+        text-decoration: none;
+        font-size: 25px;
+        color: #ffffff;
+        display: block;
+        transition: 0.3s;
+    }
+
+        /* When you mouse over the navigation links, change their color */
+        .sidenav a:hover {
+            color: #0094ff;
+            text-decoration: none;
+            text-emphasis-style: sesame;
+        }
+
+    /* Position and style the close button (top right corner) */
+    .sidenav .closebtn {
+        position: absolute;
+        top: 0;
+        right: 25px;
+        font-size: 36px;
+        margin-left: 50px;
+        color: #0094ff !important;
+    }
+
+
+
+
+/* On smaller screens, where height is less than 450px, change the style of the sidenav (less padding and a smaller font size) */
+/*  @media screen and (max-height: 450px) {*/
+
+@media screen and (max-height: 100%) {
+    .sidenav {
+        padding-top: 15px;
+    }
+
+        .sidenav a {
+            font-size: 18px;
+        }
+}
+
+@media screen {
+
+    /* start of screen rules. */
+
+    /* Generic pane rules */
+
+    /*
+  body { margin: 0 }
+  .row, .col { overflow: hidden; position: absolute; }
+  .row { left: 0; right: 0; }
+  .col { top: 0; bottom: 0; }
+  .scroll-x { overflow-x: auto; }
+  .scroll-y { overflow-y: auto; }
+
+  .header.row { height: 75px; top: 0; }
+  .body.row { top: 75px; bottom: 50px; }
+  .footer.row { height: 50px; bottom: 0; }
+  */
+    /* end of screen rules. */
+
+}
