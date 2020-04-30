@@ -30,7 +30,14 @@
                     <div class="col-sm-10">
                         <h1 class="saymyname">Dissecting Randy</h1>
                         <br />
-                        <span class="submessage">It's not enough to seek out new candidates based solely on talent and experience (can't hurt though). You also want someone that will fit well within the current team culture. Having a varied mixture of interesting, 3-dimensional coworkers can add new perspective and increase team cohesion. </span>
+                      <%--  <span class="submessage">It's not enough to seek out new candidates based solely on talent and experience (can't hurt though). You also want someone that will fit well within the current team culture. Having a varied mixture of interesting, 3-dimensional coworkers can add new perspective and increase team cohesion. </span>--%>
+                    <ul>
+                        <li>Has the Skills</li>
+                        <li>Has the Experience</li>
+                        <li>Has the Right Personality?</li>
+                        <li>Is a Good Fit for the Team?</li>
+                    </ul>
+                    
                     </div>
                     <div class="bookmark">
                         <img src="Content/img/face.png" />

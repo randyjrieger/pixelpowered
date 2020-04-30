@@ -111,7 +111,7 @@
     <Content Include="Content\bootstrap-theme.min.css" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
-    <Content Include="Content\github_logo.png" />
+    <Content Include="Content\img\bakery.png" />
     <Content Include="Content\img\banner1.svg" />
     <Content Include="Content\img\banner2.svg" />
     <Content Include="Content\img\banner3.svg" />
@@ -122,6 +122,9 @@
     <Content Include="Content\img\linkedin.png" />
     <Content Include="Content\img\piggy.jpg" />
     <Content Include="Content\img\pixel.png" />
+    <Content Include="Content\img\pixelpowered.png" />
+    <Content Include="Content\img\tilebasedwp.png" />
+    <Content Include="Content\img\vinyltap.png" />
     <Content Include="Content\menustuff.css" />
     <Content Include="Content\Site.css" />
     <Content Include="Default.aspx" />
@@ -143,6 +146,7 @@
     <Content Include="fonts\fanwood_text-webfont.woff" />
     <Content Include="fonts\fanwood_text_italic-webfont.woff" />
     <Content Include="Content\Resume\Resume 2020_v03.pdf" />
+    <Content Include="WebForm1.aspx" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Projects.aspx" />
@@ -243,6 +247,13 @@
     <Compile Include="ViewSwitcher.ascx.designer.cs">
       <DependentUpon>ViewSwitcher.ascx</DependentUpon>
     </Compile>
+    <Compile Include="WebForm1.aspx.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="WebForm1.aspx.designer.cs">
+      <DependentUpon>WebForm1.aspx</DependentUpon>
+    </Compile>
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
@@ -283,6 +294,13 @@
       </FlavorProperties>
     </VisualStudio>
   </ProjectExtensions>
+  <Target Name="CopyRoslynFiles" AfterTargets="AfterBuild" Condition="!$(Disable_CopyWebApplication) And '$(OutDir)' != '$(OutputPath)'">
+    <ItemGroup>
+      <RoslynFiles Include="$(CscToolPath)\*" />
+    </ItemGroup>
+    <MakeDir Directories="$(WebProjectOutputDir)\bin\roslyn" />
+    <Copy SourceFiles="@(RoslynFiles)" DestinationFolder="$(WebProjectOutputDir)\bin\roslyn" SkipUnchangedFiles="true" Retries="$(CopyRetryCount)" RetryDelayMilliseconds="$(CopyRetryDelayMilliseconds)" />
+  </Target>
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
       <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
