@@ -48,10 +48,12 @@
 
 
             .cardcontent {
+                position: relative;
                 display: inline-block;
                 text-align: left;
                 padding-left: 10px;
                 width: 60%;
+                height:100%;
             }
 
             /*@media screen and (max-width: 600px) {*/
@@ -78,6 +80,16 @@
                 text-align: left;
                 font-size: 14px;
             }
+            
+            .cardtop{
+            }
+
+            .gitbar{
+                position:relative !important;  
+                bottom: 0;
+                left: 0;
+                right: 0;
+            }
 
             .gitlogo {
                 width: 32px !important;
@@ -85,11 +97,13 @@
                 display: inline-block;
                 vertical-align: middle;
             }
+            
 
             .gitlinks {
-                display: inline-block;
-                vertical-align: middle;
+                display: inline-block;        
             }
+
+
         </style>
         <div class="maindisplay row">
             <div class="col-sm-1"></div>
@@ -114,10 +128,12 @@
                                     <p class="cardShortDesc">My classic tile-based RPG game.</p>
                                     <p class="skillz">C# .NET Desktop | Linq | JSON </p>
                                     <hr />
-                                    <img src="Content/img/GitHub-Mark-32px.png" class="gitlogo" />
+                                    <div class="gitbar">
+                                        <img src="Content/img/GitHub-Mark-32px.png" class="gitlogo" />
 
-                                    <div class="gitlinks">
-                                        <a href="https://github.com/users/randyjrieger/projects/3">Project</a> &nbsp;<a href="https://github.com/randyjrieger/thecaregiver">Repo</a>
+                                        <div class="gitlinks">
+                                            <a href="https://github.com/users/randyjrieger/projects/3">Project</a>&nbsp;|&nbsp;<a href="https://github.com/randyjrieger/thecaregiver">Repo</a>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
@@ -130,11 +146,10 @@
                                     <p class="cardShortDesc">A basic ASP.NET Core 3.1 app that I put together for practice, but also to have a searchable database for my collection.</p>
                                     <p class="skillz">ASP.NET Core 3.1 & 2.2 | CSS | Linq | SqlServer </p>
                                     <hr />
-                                    <div>
+                                    <div class="gitbar">
                                         <img src="Content/img/GitHub-Mark-32px.png" class="gitlogo" />
                                         <div class="gitlinks">
-                                            <a href="https://github.com/randyjrieger/vinylcollection31">Repo [Core 3.1]</a>
-                                            <a href="https://github.com/randyjrieger/vinylcollection">Repo [Core 2.2]</a>
+                                            <a href="https://github.com/randyjrieger/vinylcollection31">Repo [Core 3.1]</a>&nbsp;|&nbsp;<a href="https://github.com/randyjrieger/vinylcollection">Repo [Core 2.2]</a>
                                         </div>
                                     </div>
                                 </div>
@@ -153,7 +168,7 @@
                                     <div>
                                         <img src="Content/img/GitHub-Mark-32px.png" class="gitlogo" />
                                         <div class="gitlinks">
-                                            <a href="https://github.com/users/randyjrieger/projects/2">Project</a> &nbsp;<a href="https://github.com/randyjrieger/L00T">Repo</a>
+                                            <a href="https://github.com/users/randyjrieger/projects/2">Project</a>&nbsp;|&nbsp;<a href="https://github.com/randyjrieger/L00T">Repo</a>
                                         </div>
                                     </div>
 
@@ -173,7 +188,7 @@
                                     <img src="Content/img/GitHub-Mark-32px.png" class="gitlogo" />
 
                                     <div class="gitlinks">
-                                        <a href="https://github.com/users/randyjrieger/projects/1">Project</a> &nbsp;<a href="https://github.com/randyjrieger/pixelpowered">Repo</a>
+                                        <a href="https://github.com/users/randyjrieger/projects/1">Project</a>&nbsp;|&nbsp;<a href="https://github.com/randyjrieger/pixelpowered">Repo</a>
                                     </div>
                                 </div>
 
@@ -181,7 +196,7 @@
                         </div>
                         <div class="column">
                             <div class="card">
-                                <img src="Content/img/L00T_image.png" style="width: 250px; height: 250px;" />
+                                <img src="Content/img/golang.png" style="width: 250px; height: 250px;" />
 
                                 <div class="cardcontent">
                                     <p class="cardTitle">GoLang Repo</p>

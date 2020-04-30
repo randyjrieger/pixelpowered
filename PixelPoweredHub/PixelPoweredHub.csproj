@@ -118,6 +118,7 @@
     <Content Include="Content\img\caregiver.png" />
     <Content Include="Content\img\face.png" />
     <Content Include="Content\img\github_logo.png" />
+    <Content Include="Content\img\golang.png" />
     <Content Include="Content\img\L00T_image.png" />
     <Content Include="Content\img\linkedin.png" />
     <Content Include="Content\img\piggy.jpg" />
@@ -145,8 +146,8 @@
     <Content Include="fonts\fanwood_italic-webfont.woff" />
     <Content Include="fonts\fanwood_text-webfont.woff" />
     <Content Include="fonts\fanwood_text_italic-webfont.woff" />
-    <Content Include="Content\Resume\Resume 2020_v03.pdf" />
     <Content Include="WebForm1.aspx" />
+    <Content Include="Content\Resume\Resume 2020.pdf" />
     <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Scripts\jquery-3.3.1.intellisense.js" />
     <Content Include="Projects.aspx" />
