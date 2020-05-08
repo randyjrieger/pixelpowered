@@ -20,27 +20,19 @@
             <div class="col-sm-1"></div>
             <div class="col-sm-10 pageframe">
                 <div class="row ">
+                    <div class="col-sm-10">
+                        <h2 class="subtitle">My Resume</h2>
+                        <br />
+                        <p class="message">Please, feel free to download.</p>
 
+                    </div>
+                </div>
+                <div class="row ">
                     <iframe id="myIframe" style="position: relative; height: 1000px; width: 100%; border-style: inset" src="Content/Resume/Resume%202020.pdf" />
                 </div>
             </div>
             <div class="col-sm-1"></div>
         </div>
-        <hr />
-                <footer>
-                    <div class="copyright">
-                        &copy; <%: DateTime.Now.Year %> - PixelPowered
-                    </div>
-                    <div class="sociallinks">
-                        <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
-                            <img src="Content/img/linkedin.png" alt="Linkedin Profile" /></a>
-                        <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
-                            <img src="Content/img/github_logo.png" alt="Github Page" /></a>
-                    </div>
-
-                </footer>
-                <br />
-                &nbsp;
     </div>
 
 </asp:Content>

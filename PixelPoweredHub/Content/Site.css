@@ -32,12 +32,12 @@ body {
     padding-right: 100px !important;
 }
 
-.pageframe {
+/*.pageframe {
     background-image: linear-gradient(to right,#4c7496, #818181);
+}*/
+.pageframe {
+    background-image: linear-gradient(to right,#4c7496, #9967b4);
 }
-/* background-image: linear-gradient(to right,#4c7496, #818181);
-    padding: 20px 250px 20px 250px !important;*/
-/* Style page content - use this if you want to push the page content to the right when you open the side navigation */
 #main {
     transition: margin-left .5s;
     padding: 20px;
@@ -45,13 +45,14 @@ body {
 
 .saymyname {
     font-family: 'fanwood-webfont';
-    font-size: 54px;
+    font-size: 36px;
     /* color: #371c3c !important;*/
     color: #ffffff;
+    padding: 10px 0px 0px 5px;
 }
 .subtitle {
-    font-family: 'fanwood-webfont';
-    font-size: 34px;
+    font-family: Arial;
+    font-size: 48px;
     /* color: #371c3c !important;*/
     color: #ffffff;
 }
@@ -64,7 +65,7 @@ body {
 }
 
 .message {
-    font-size: 24px;
+    font-size: 20px;
     color: #ffffff;
 }
 .submessage {
@@ -91,6 +92,7 @@ body {
     .sidenav a {
         padding: 8px 8px 8px 32px;
         text-decoration: none;
+        text-decoration-line: none;
         font-size: 25px;
         color: #ffffff;
         display: block;
