@@ -28,7 +28,6 @@
                     </div>
                 </div>
                 <div class="row ">
-
                     <iframe id="myIframe" style="position: relative; height: 1000px; width: 100%; border-style: inset" src="Content/Resume/Resume%202020.pdf" />
                 </div>
             </div>
