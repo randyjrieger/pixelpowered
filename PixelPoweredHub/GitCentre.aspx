@@ -226,7 +226,7 @@
                     <div class="sociallinks">
                         <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
                             <img src="Content/img/linkedin.png" alt="Linkedin Profile" /></a>
-                        <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
+                        <a href="https://github.com/randyjrieger/" target="_blank">
                             <img src="Content/img/GitHub-Mark-32px.png" alt="Github Page" /></a>
                     </div>
 
