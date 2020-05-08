@@ -102,9 +102,25 @@
             .gitlinks {
                 display: inline-block;        
             }
+            
+.sitequote {
+    font-family: 'fanwood-webfont';
+    font-size: 24px;
+    text-align: left;
+    font-style: italic;
+    color: #ffffff;
+    display: inline;
+}
 
+.sitequotee {
+    font-family: 'fanwood-webfont';
+    font-size: 18px;
+    color: #ffffff;
+    display: inline;
+}
 
         </style>
+    <div class="container-fluid">
         <div class="maindisplay row">
             <div class="col-sm-1"></div>
             <div class="col-sm-10 pageframe">
@@ -112,7 +128,7 @@
                     <div class="col-sm-10">
                         <h2 class="subtitle">Git Projects</h2>
                         <br />
-                        <p class="message">I presently use Github at work, where we have 50+ repositorys. However, I haven't had a personal Git site for very long. It was long overdue.</p>
+                        <p class="message">Presently, I use Github where I am employed. I have only recently began taking advantage of it for my personal projects.</p>
 
                     </div>
                 </div>
@@ -218,23 +234,25 @@
                     </div>
                     <div class="col-sm-1"></div>
                 </div>
+              
                 <hr />
                 <footer>
-                    <div class="copyright">
-                        &copy; <%: DateTime.Now.Year %> - PixelPowered
-                    </div>
+                    <div class="col-sm-8">
+                    <article>
+                        <p class="sitequote">"I don't have dreams, I have goals."</p>
+                        <p class="sitequotee">- Harvey Specter</p>
+                    </article></div>
                     <div class="sociallinks">
                         <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
                             <img src="Content/img/linkedin.png" alt="Linkedin Profile" /></a>
                         <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
-                            <img src="Content/img/GitHub-Mark-32px.png" alt="Github Page" /></a>
+                            <img src="Content/img/github_logo.png" alt="Github Page" /></a>
                     </div>
-
                 </footer>
                 <br />
                 &nbsp;
-            </div>
-
+            </div>            
+            <div class="col-sm-1"></div>
         </div>
     </div>
 
