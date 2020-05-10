@@ -1,4 +1,4 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ResumeView.aspx.cs" Inherits="PixelPoweredHub.ResumeView" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="ResumeView.aspx.cs" Inherits="PixelPoweredHub.ResumeView" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
     <style type="text/css">
@@ -28,6 +28,7 @@
                     </div>
                 </div>
                 <div class="row ">
+
                     <iframe id="myIframe" style="position: relative; height: 1000px; width: 100%; border-style: inset" src="Content/Resume/Resume%202020.pdf" />
                 </div>
             </div>

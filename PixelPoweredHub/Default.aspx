@@ -1,4 +1,4 @@
-﻿<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PixelPoweredHub._Default" %>
+<%@ Page Title="Home Page" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Default.aspx.cs" Inherits="PixelPoweredHub._Default" %>
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
     <style type="text/css">
@@ -22,8 +22,8 @@
         }
 
             .bookmark img {
-                width: 70%;
-                height: 70%;
+                    width:120px;
+                    height: 120px;
             }
 
         .sitequote {
@@ -44,9 +44,13 @@
     color:lightblue;
 }
 
-.subcolumn {
-    font-size: 20px;
+.subcolumnB {
+    font-size: 18px;
     color: lightblue;
+}
+.subcolumn {
+    font-size: 18px;
+    color:lightgray;
 }
  ul {
     padding: 0;
@@ -82,29 +86,31 @@
                 <br />
                 
                 <div class="row">
-                    <article class="col-md-4 ">
-                        <p class="subheader" style="font-weight:bold;">I'M SEEKING</p>
+                   
+                    <article class="col-md-4">
+                        <p class="subheader" style="font-weight:bold;">FULLY STACKED</p>
+                        <ul>
+                            <li class="subcolumn">Client/Serverside, APIs, Webmethods</li>
+                            <li class="subcolumnB">ASP.NET Developer - up to 4.6.1</li>
+                            <li class="subcolumn">.NET Standard, .NET Core, CSS, JQuery</li>
+                            <li class="subcolumnB">Training in .NET Core 2.2 & 3.1, Golang, Node.js</li>               
+                        </ul>
+                    </article> 
+                    <article class="col-md-5 ">
+                        <p class="subheader" style="font-weight:bold;">DATA MINER</p>
                         <ul class="subcolumn">
-                            <li>An Adventurous Role.</li>
-                            <li>One to Shake my Foundations</li>
-                            <li>One to Erect Goals for me to Knock Down.</li>                   
+                            <li class="subcolumn">Years Building Custom Reports for Clients</li>
+                            <li class="subcolumnB">Dashboard Creation using Chartio and iDashboards</li>
+                            <li class="subcolumn">MariaDB, SqlServer, Snowflake, Pervasive, Oracle </li>                   
                         </ul>
 
                     </article>
-                    <article class="col-md-4">
-                        <p class="subheader" style="font-weight:bold;">FULLY STACKED</p>
-                        <ul class="subcolumn">
-                            <li>CSS, JQuery, AJAX, Bootstrap </li>
-                            <li>.NET Standard, .NET Core, Golang</li>
-                            <li>SQL</li>                        
-                        </ul>
-                    </article>
-                    <article class="col-md-4">
+                    <article class="col-md-3">
                         <p class="subheader" style="font-weight:bold;">BEYOND</p>
                         <ul class="subcolumn">
-                            <li>Concrete Leadership Experience</li>
-                            <li>Report Crafter | Dashboard Builder</li>
-                            <li>A Client's 'Go To' Professional</li>                        
+                            <li class="subcolumn">Concrete Leadership Experience</li>
+                            <li class="subcolumnB">Report Crafter | Dashboard Builder</li>
+                            <li class="subcolumn">A Client's 'Go To' Professional</li>                        
                         </ul>
                     </article>
                     <br />
@@ -121,7 +127,7 @@
                     <div class="sociallinks">
                         <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
                             <img src="Content/img/linkedin.png" alt="Linkedin Profile" /></a>
-                        <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
+                        <a href="https://github.com/randyjrieger/" target="_blank">
                             <img src="Content/img/github_logo.png" alt="Github Page" /></a>
                     </div>
                 </footer>
