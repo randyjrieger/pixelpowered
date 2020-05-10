@@ -15,15 +15,16 @@
                     text-decoration: none;
                 }
 
-            .bookmark {
+            .centerportrait {
                 vertical-align: top;
-                float: right;
                 padding: 10px 10px 5px 5px;
+                text-align:center;
             }
 
-                .bookmark img {
-                    width: 70%;
-                    height: 70%;
+                .centerportrait img {
+                    text-align:center;
+                    width:120px;
+                    height: 120px;
                 }
 
 .sitequote {
@@ -54,39 +55,71 @@
     <div class="container-fluid">
         <div class="maindisplay row">
             <div class="col-sm-1"></div>
-            <div class="col-sm-10 pageframe">
-                <div class="row">
-                    <div class="bookmark">
+            <div class="col-sm-10 pageframe"> 
+                <div class="row ">
+                    <div class="col-sm-1"></div>
+                    <div class="centerportrait col-sm-10">
                         <img src="Content/img/face.png" />
                     </div>
                 </div>
+                <br /><br />
                 <div class="row">
                     <div class="col-sm-1"></div>
-                    <div class="col-md-5">
-                        <p class="domaintitle">Do you want just a developer?</p>
+                    <div class="col-md-10">
+                        <p class="domaintitle">What I'm All About</p>
                     </div>
                 </div>
                 <div class="row">
-                    <div class="col-sm-1"></div>
+                        <div class="col-sm-1"></div>
                     <div class="col-md-5">
                         <article id="leftlist" class="subcolumn">
                             <ul>
                                 <li>Understands the Customer</li>
                                 <li>Cares About The Product</li>
                                 <li>Obsessively Punctual</li>
-                                <li>Follows The Process</li>
-                                <li>Quirky, with a dash of Weird</li>
+                                <li>Follows The Set Process</li>
                             </ul>
                         </article>
                     </div>
                     <div class="col-md-5">
                         <article id="rightlist" class="subcolumn">
                             <ul>
+                                <li>Solid Work Ethic</li>
                                 <li>Communicates Appropriately</li>
                                 <li>Manages Personal Goals</li>
                                 <li>Shows Appreciation</li>
-                                <li>Solid Work Ethic</li>
-                                <li>Ever Evolving</li>
+                            </ul>
+                        </article>
+                        <div class="col-sm-1"></div>
+                    </div>
+                </div><br />
+                <div class="row">
+                    <div class="col-sm-1"></div>
+                    <div class="col-md-10">
+                        <p class="domaintitle">Random Things About Me</p>
+                    </div>
+                </div>
+                <div class="row">
+                        <div class="col-sm-1"></div>
+                    <div class="col-md-5">
+                        <article id="t" class="subcolumn">
+                            <ul>
+                                <li>Enjoy Writing and Inventing Worlds</li>
+                                <li>Have a Growing Vinyl Collection</li>
+                                <li>Spent 2 Work Missions in Haiti</li>
+                                <li>Love Traveling and History</li>
+                                <li>Practice Yoga</li>
+                            </ul>
+                        </article>
+                    </div>
+                    <div class="col-md-5">
+                        <article id="y" class="subcolumn">
+                            <ul>
+                                <li>Am a bit of a Game Programmer</li>
+                                <li>A Mustang Enthusiast</li>
+                                <li>Try to Live Mindfully</li>
+                                <li>Greatly Into Genealogy</li>
+                                <li>Enjoy Role Playing With Friends(D&D)</li>
                             </ul>
                         </article>
                         <div class="col-sm-1"></div>
@@ -111,7 +144,7 @@
                 &nbsp;
             </div>
             <div class="col-sm-1"></div>
-            </div>
         </div>
+    </div>
 
 </asp:Content>
