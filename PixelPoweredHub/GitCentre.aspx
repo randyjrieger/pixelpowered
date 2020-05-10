@@ -1,21 +1,20 @@
-﻿<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="GitCentre.aspx.cs" Inherits="PixelPoweredHub.GitCentre" %>
+<%@ Page Title="" Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="GitCentre.aspx.cs" Inherits="PixelPoweredHub.GitCentre" %>
 
 <asp:Content ID="Content1" ContentPlaceHolderID="MainContent" runat="server">
 
     <div class="container-fluid">
         <style type="text/css">
-         
-        .copyright {
-            float: left;
-        }
-
-        .sociallinks {
-            float: right !important;
-        }
-
-            .sociallinks a {
-                text-decoration: none;
+            .copyright {
+                float: left;
             }
+
+            .sociallinks {
+                float: right !important;
+            }
+
+                .sociallinks a {
+                    text-decoration: none;
+                }
 
             * {
                 box-sizing: border-box;
@@ -53,7 +52,7 @@
                 text-align: left;
                 padding-left: 10px;
                 width: 60%;
-                height:100%;
+                height: 100%;
             }
 
             /*@media screen and (max-width: 600px) {*/
@@ -68,7 +67,7 @@
             .cardTitle {
                 font-weight: bold;
                 font-size: 18px;
-                color:midnightblue;
+                color: midnightblue;
             }
 
             .cardShortDesc {
@@ -83,12 +82,12 @@
                 font-size: 14px;
                 color: darkgray;
             }
-            
-            .cardtop{
+
+            .cardtop {
             }
 
-            .gitbar{
-                position:relative !important;  
+            .gitbar {
+                position: relative !important;
                 bottom: 0;
                 left: 0;
                 right: 0;
@@ -100,41 +99,42 @@
                 display: inline-block;
                 vertical-align: middle;
             }
-            
+
 
             .gitlinks {
-                display: inline-block;        
+                display: inline-block;
             }
 
             .gitbar img {
-  height: 24px;
-  margin-right: -16px;
-  margin-bottom: -6px;
-  vertical-align:text-bottom;
+                height: 24px;
+                margin-right: -16px;
+                margin-bottom: -6px;
+                vertical-align: text-bottom;
             }
 
             .btn-git {
-                color:#ffffff;
-                background-color:#2c2626;
-                font-size:18px
+                color: #ffffff;
+                background-color: #2c2626;
+                font-size: 18px
             }
-            
-        .sitequote {
-            font-family: 'fanwood-webfont';
-            font-size: 24px;
-            text-align: left;
-            font-style: italic;
-            color: #ffffff;display:inline;
-        }
 
-        .sitequotee {
-            font-family: 'fanwood-webfont';
-            font-size: 18px;
-            color: #ffffff;display:inline;
-        }
+            .sitequote {
+                font-family: 'fanwood-webfont';
+                font-size: 24px;
+                text-align: left;
+                font-style: italic;
+                color: #ffffff;
+                display: inline;
+            }
 
+            .sitequotee {
+                font-family: 'fanwood-webfont';
+                font-size: 18px;
+                color: #ffffff;
+                display: inline;
+            }
         </style>
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
         <div class="maindisplay row">
             <div class="col-sm-1"></div>
@@ -206,7 +206,7 @@
                                     <p class="cardTitle">PixelPowered Website</p>
                                     <p class="cardShortDesc">This is my website. The one you are looking at.</p>
                                     <p class="skillz">ASP.NET 4.6.1 | CSS | Bootstrap </p>
-                                    <hr />                                    
+                                    <hr />
                                     <div class="gitbar">
                                         <button class="btn btn-sm btn-git" onclick="window.open('https://github.com/randyjrieger/pixelpowered');return false;"><i class="fa fa-github"></i>&nbsp;Repository </button>
                                         <button class="btn btn-sm btn-git" onclick="window.open('https://github.com/users/randyjrieger/projects/1');return false;"><i class="fa fa-github"></i>&nbsp;Project </button>
@@ -223,7 +223,7 @@
                                     <p class="cardTitle">GoLang Repo</p>
                                     <p class="cardShortDesc">Some of my GoLang scripts, very basic stuff. I just need a real project!</p>
                                     <p class="skillz">GoLang </p>
-                                    <hr />                                 
+                                    <hr />
                                     <div class="gitbar">
                                         <button class="btn btn-sm btn-git" onclick="window.open('https://github.com/randyjrieger/learngo');return false;"><i class="fa fa-github"></i>&nbsp;Repository </button>
                                     </div>
@@ -237,10 +237,11 @@
                 <hr />
                 <footer>
                     <div class="col-sm-8">
-                    <article>
-                        <p class="sitequote">"I don't have dreams, I have goals."</p>
-                        <p class="sitequotee">- Harvey Specter</p>
-                    </article></div>
+                        <article>
+                            <p class="sitequote">"I don't have dreams, I have goals."</p>
+                            <p class="sitequotee">- Harvey Specter</p>
+                        </article>
+                    </div>
                     <div class="sociallinks">
                         <a href="https://www.linkedin.com/in/rjrieger/" target="_blank">
                             <img src="Content/img/linkedin.png" alt="Linkedin Profile" /></a>
